@@ -1,0 +1,129 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 2px 3px gray;
+  border-radius: 3px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(7, 7, 7);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.card {
+  list-style-type: none;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 2px 3px gray;
+  position: relative;
+  grid-column: span 8;
+}
+.card-title {
+  margin-left: 190px;
+  margin-top: -140px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-text {
+  margin-left: 190px;
+  margin-top: -25px;
+  font-family: sans-serif;
+  font-weight: ;
+}
+.img {
+  margin-top: 13px;
+  margin-left: -1px;
+  position: relative;
+}
+
+.btn {
+  font-family: sans-serif;
+  font-size: 1em;
+  background: blue;
+  color: #ffffff;
+  border: #ffffff 0.1rem solid;
+  border-radius: 0.5rem;
+  padding: 0.6rem 0.6rem;
+  text-decoration: none;
+  margin-left: 187px;
+  margin-bottom: 10px;
+}
+.btn:hover {
+  opacity: 0.9;
+  background: green;
+}
+.bt1 {
+  font-family: sans-serif;
+  font-size: 1em;
+  background: brown;
+  color: #ffffff;
+  border: #ffffff 0.1rem solid;
+  border-radius: 0.5rem;
+  padding: 0.6rem 0.6rem;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.bt1:hover {
+  opacity: 0.9;
+  background: rgb(0, 255, 47);
+}
+
+.text-1 {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin-left: 500px;
+  margin-top: -120px;
+  position: relative;
+}
+.text-2 {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: normal;
+  margin-left: 600px;
+  margin-top: -144px;
+  position: relative;
+}
+
+.car {
+  list-style-type: none;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 2px 2px gray;
+  position: relative;
+  grid-column: span 8;
+}
+.form-control {
+  position: relative;
+}
+.btn3 {
+  font-family: sans-serif;
+  font-size: 1em;
+  background: blue;
+  color: #ffffff;
+  border: #ffffff 0.1rem solid;
+  border-radius: 0.5rem;
+  padding: 0.6rem 0.6rem;
+  text-decoration: none;
+  margin-left: -1px;
+  width: 1244px;
+}
+.btn3:hover {
+  opacity: 1;
+  background-color: brown;
+}
